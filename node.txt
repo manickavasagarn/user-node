@@ -1,0 +1,12 @@
+node:
+npm init - init the node
+npm install express 
+express - create the api app
+express.json - req body convet into json
+npm install cors 
+const cors=require("cors");
+let option = {
+    origin : "*"
+}
+app.use(cors(option)); --> using cors
+nodemon - restart auto
